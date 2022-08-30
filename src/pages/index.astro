@@ -1,5 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro'
+import Counter from '../components/Counter.vue';
+import DisplayCounter from '../components/DisplayCounter.vue'
 ---
 
 <Layout title="Welcome to Astro.">
@@ -16,10 +18,12 @@ import Layout from '../layouts/Layout.astro'
 	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores est pariatur repellendus a ipsam fuga velit, in ab odio nesciunt praesentium incidunt vero quo sunt soluta at quaerat! Deleniti dolore facere quam unde, magni amet harum itaque doloremque error tempore suscipit ut vero culpa quibusdam excepturi eius, impedit fuga optio! Cumque, dicta. Tempora consectetur autem delectus quia maiores minima quo, exercitationem facere aut nobis excepturi sapiente soluta doloribus enim distinctio voluptas voluptatem sit error itaque voluptatum ab sequi? Hic ipsum tempora voluptas alias quidem porro voluptates obcaecati odio sint quaerat. Atque animi sed explicabo tenetur, accusantium commodi voluptatibus architecto quas!</p>
 	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores est pariatur repellendus a ipsam fuga velit, in ab odio nesciunt praesentium incidunt vero quo sunt soluta at quaerat! Deleniti dolore facere quam unde, magni amet harum itaque doloremque error tempore suscipit ut vero culpa quibusdam excepturi eius, impedit fuga optio! Cumque, dicta. Tempora consectetur autem delectus quia maiores minima quo, exercitationem facere aut nobis excepturi sapiente soluta doloribus enim distinctio voluptas voluptatem sit error itaque voluptatum ab sequi? Hic ipsum tempora voluptas alias quidem porro voluptates obcaecati odio sint quaerat. Atque animi sed explicabo tenetur, accusantium commodi voluptatibus architecto quas!</p>
 	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores est pariatur repellendus a ipsam fuga velit, in ab odio nesciunt praesentium incidunt vero quo sunt soluta at quaerat! Deleniti dolore facere quam unde, magni amet harum itaque doloremque error tempore suscipit ut vero culpa quibusdam excepturi eius, impedit fuga optio! Cumque, dicta. Tempora consectetur autem delectus quia maiores minima quo, exercitationem facere aut nobis excepturi sapiente soluta doloribus enim distinctio voluptas voluptatem sit error itaque voluptatum ab sequi? Hic ipsum tempora voluptas alias quidem porro voluptates obcaecati odio sint quaerat. Atque animi sed explicabo tenetur, accusantium commodi voluptatibus architecto quas!</p>
+	<Counter client:visible />
+	<DisplayCounter client:visible />
 </Layout>
 
 <style>
 	p {
-		color: antiquewhite;
+		color: #333;
 	}
 </style>

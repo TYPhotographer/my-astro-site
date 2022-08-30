@@ -20,6 +20,8 @@
     "vue": "^3.2.30"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^5.35.1"
+    "@nanostores/vue": "^0.6.0",
+    "@typescript-eslint/parser": "^5.35.1",
+    "nanostores": "^0.6.0"
   }
 }

@@ -1482,7 +1482,7 @@ const $$SkillLayout = createComponent(async ($$result, $$props, $$slots) => {
 
 const html$2 = "<p>JavaScript（通常縮寫為JS）是一門基於原型和頭等函式的多範式進階直譯程式語言，它支援物件導向程式設計、指令式編程和函式語言程式設計。它提供方法來操控文字、陣列、日期以及正規表示式等。不支援I/O，比如網路、儲存和圖形等，但這些都可以由它的宿主環境提供支援。它由ECMA（歐洲電腦製造商協會）透過ECMAScript實作語言的標準化。目前，它被世界上的絕大多數網站所使用，也被世界主流瀏覽器（Chrome、IE、Firefox、Safari和Opera）所支援。</p>\n<p>JavaScript與Java在名字和語法上都很相似，但這兩門程式語言從設計之初就有很大不同。JavaScript在語言設計上主要受到了Self（一種原型程式設計語言）和Scheme（一門函式語言程式設計語言）的影響，在語法結構上它和C語言很相似（如if條件語句、switch語句、while迴圈和do-while迴圈等）。</p>\n<p>對於客戶端來說，JavaScript通常被實作為一門解釋語言，但如今它已經可以被即時編譯（JIT）。隨著HTML5和CSS3語言標準的推行，它還可以用於遊戲、桌面和行動應用程式的開發，以及在伺服器端網路環境執行（如Node.js）。</p>";
 
-				const frontmatter$2 = {"layout":"../../layouts/SkillLayout.astro","title":"Javascript","description":"敘述"};
+				const frontmatter$2 = {"layout":"./../../layouts/SkillLayout.astro","title":"Javascript","description":"敘述"};
 				const file$2 = "D:/CodingLife/astro/my-astro-site/src/pages/skill/javascript.md";
 				const url$2 = "/skill/javascript";
 				function rawContent$2() {
@@ -1547,7 +1547,7 @@ const _page3 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
 
 const html$1 = "<p>超文本標記語言（英語：HyperText Markup Language，簡稱：HTML）是一種用於建立網頁的標準標記語言。HTML是一種基礎技術，常與CSS、JavaScript一起被眾多網站用於設計網頁、網頁應用程式以及行動應用程式的使用者介面。網頁瀏覽器可以讀取HTML檔案，並將其彩現成視覺化網頁。HTML描述了一個網站的結構語意隨著線索的呈現，使之成為一種標記語言而非程式語言。</p>\n<p>HTML元素是構建網站的基石。HTML允許嵌入圖像與物件，並且可以用於建立互動式表單，它被用來結構化資訊——例如標題、段落和列表等等，也可用來在一定程度上描述文件的外觀和語意。HTML的語言形式為尖括號包圍的HTML元素（如），瀏覽器使用HTML標籤和指令碼來詮釋網頁內容，但不會將它們顯示在頁面上。</p>\n<p>HTML可以嵌入如JavaScript的手稿語言，它們會影響HTML網頁的行為。網頁瀏覽器也可以參照階層式樣式表（CSS）來定義文字和其它元素的外觀與布局。維護HTML和CSS標準的組織全球資訊網協會（W3C）鼓勵人們使用CSS替代一些用於表現的HTML元素。</p>";
 
-				const frontmatter$1 = {"layout":"../../layouts/SkillLayout.astro","title":"Html","description":"敘述"};
+				const frontmatter$1 = {"layout":"./../../layouts/SkillLayout.astro","title":"Html","description":"敘述"};
 				const file$1 = "D:/CodingLife/astro/my-astro-site/src/pages/skill/html.md";
 				const url$1 = "/skill/html";
 				function rawContent$1() {
@@ -1612,7 +1612,7 @@ const _page4 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
 
 const html = "<p>階層式樣式表（英語：Cascading Style Sheets，縮寫：CSS；又稱串樣式列表、級聯樣式表、串接樣式表、階層式樣式表）是一種用來為結構化文件（如HTML文件或XML應用）添加樣式（字型、間距和顏色等）的電腦語言，由W3C定義和維護。CSS3現在已被大部分現代瀏覽器支援，而下一版的CSS4仍在開發中。</p>\n<p>CSS不僅可以靜態地修飾網頁，還可以配合各種手稿語言動態地對網頁各元素進行格式化。CSS 能夠對網頁中元素位置的排版進行像素級精確控制，支援幾乎所有的字型字號樣式，擁有對網頁物件和模型樣式編輯的能力。</p>";
 
-				const frontmatter = {"layout":"../../layouts/SkillLayout.astro","title":"CSS","description":"敘述"};
+				const frontmatter = {"layout":"./../../layouts/SkillLayout.astro","title":"CSS","description":"敘述"};
 				const file = "D:/CodingLife/astro/my-astro-site/src/pages/skill/css.md";
 				const url = "/skill/css";
 				function rawContent() {
