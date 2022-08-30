@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/SkillLayout.astro
+layout: ./../../layouts/SkillLayout.astro
 title: CSS
 description: 敘述
 ---
