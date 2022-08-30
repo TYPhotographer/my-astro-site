@@ -1,0 +1,13 @@
+---
+import Layout from "./Layout.astro";
+
+const { title, description } = Astro.props.frontmatter || Astro.props
+---
+<Layout title="Skill Page">
+  <h2>{title}</h2>
+  <a href="/skill">
+    back
+  </a>
+  <p>{description}</p>
+  <slot />
+</Layout>

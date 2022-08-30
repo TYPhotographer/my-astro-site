@@ -1,0 +1,15 @@
+---
+import BlogLayout from "../../layouts/BlogLayout.astro"
+
+const { id } = Astro.params
+
+export function getStaticPaths() {
+  return [
+    { params: { id: 1 }, props: { test: 123 }},
+    { params: { id: 2 }, props: { test: 123 }},
+    { params: { id: 3 }, props: { test: 123 }},
+  ]
+}
+---
+
+<BlogLayout id={id} />

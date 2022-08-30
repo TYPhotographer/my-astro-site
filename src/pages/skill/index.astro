@@ -1,0 +1,39 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import Card from '../../components/Card.astro'
+
+const cardList = [
+	{
+		title: 'Html',
+		body: 'ddddddd',
+		href: '/skill/html',
+	},
+	{
+		title: 'Css',
+		body: 'daddddsd',
+		href: '/skill/css',
+	},
+	{
+		title: 'Javascript',
+		body: 'ddddddd',
+		href: '/skill/javascript',
+	}
+]
+---
+
+<Layout title="Welcome to Astro.">
+	<ul class="card-container">
+		{
+			cardList.map((item) => (
+				<Card {...item} />
+			))
+		}
+	</ul>
+</Layout>
+
+<style>
+	.card-container {
+		display: flex;
+		gap: 16px;
+	}
+</style>

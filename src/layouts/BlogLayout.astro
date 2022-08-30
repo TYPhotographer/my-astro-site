@@ -1,0 +1,12 @@
+---
+import Layout from "./Layout.astro";
+
+const { id } = Astro.props.frontmatter || Astro.props
+---
+<Layout title="Blog Page">
+  <h2>id is {id}</h2>
+  <a href="/blog">
+    back
+  </a>
+  <slot />
+</Layout>
